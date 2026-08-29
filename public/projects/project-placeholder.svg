@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Project image placeholder</title>
+  <desc id="description">Brutalist project preview placeholder with a grid and abstract interface blocks.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#343434" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#090909"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect x="95" y="90" width="1410" height="720" fill="#131313" stroke="#646464" stroke-width="4"/>
+  <rect x="95" y="90" width="1410" height="70" fill="#201f1f"/>
+  <circle cx="145" cy="125" r="12" fill="#ccf200"/>
+  <circle cx="185" cy="125" r="12" fill="#646464"/>
+  <circle cx="225" cy="125" r="12" fill="#646464"/>
+  <rect x="150" y="220" width="370" height="520" fill="#201f1f" stroke="#343434" stroke-width="3"/>
+  <rect x="580" y="220" width="865" height="90" fill="#ccf200"/>
+  <rect x="580" y="360" width="405" height="380" fill="#201f1f" stroke="#343434" stroke-width="3"/>
+  <rect x="1040" y="360" width="405" height="180" fill="#201f1f" stroke="#343434" stroke-width="3"/>
+  <rect x="1040" y="590" width="405" height="150" fill="#201f1f" stroke="#343434" stroke-width="3"/>
+  <text x="1012" y="278" fill="#090909" font-family="monospace" font-size="34" font-weight="700" text-anchor="middle">REPLACE WITH YOUR PROJECT MEDIA</text>
+</svg>

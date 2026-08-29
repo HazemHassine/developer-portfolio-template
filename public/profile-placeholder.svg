@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Profile image placeholder</title>
+  <desc id="description">Abstract portrait placeholder with instructions to add your own image.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#343434" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202020"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#fade)"/>
+  <rect width="800" height="1000" fill="url(#grid)" opacity=".7"/>
+  <circle cx="400" cy="325" r="145" fill="#343434" stroke="#ccf200" stroke-width="8"/>
+  <path d="M145 865c15-225 105-345 255-345s240 120 255 345" fill="#202020" stroke="#ccf200" stroke-width="8"/>
+  <rect x="92" y="888" width="616" height="64" fill="#ccf200"/>
+  <text x="400" y="930" fill="#090909" font-family="monospace" font-size="28" font-weight="700" text-anchor="middle">REPLACE WITH YOUR PORTRAIT</text>
+</svg>
