@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  ...(process.env.VERCEL ? {} : { output: 'standalone' }),
   outputFileTracingIncludes: {
     '/*': ['./content/blog/**/*'],
   },
