@@ -18,39 +18,82 @@
 
 <br/>
 
-[🌐 View Live Demo](https://developer-portfolio-template.hazemhassine.space/) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🛠️ Technologies Used](#-technologies-used) • [⚙️ Customization](#-customization-guide) • [🔐 Admin CMS](#-optional-supabase-cms--admin-studio)
+[🌐 View Live Demo](https://developer-portfolio-template.hazemhassine.space/) • [📸 Screenshots](#-screenshots--showcase) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🛠️ Tech Stack](#-technologies-used) • [⚙️ Customization](#-customization-guide)
 
 </div>
 
 ---
 
-## 📸 Showcase & Visuals
+## 📸 Screenshots & Showcase
 
 ### 🖥️ Hero & Interactive 3D WebGL Canvas
-Dynamic mouse-reactive 3D wireframe geometries built with Three.js & React Three Fiber, complemented by a cyber-brutalist header, terminal status badge, and smooth framer-motion entry animations.
+Dynamic mouse-reactive 3D wireframe geometries built with Three.js & React Three Fiber, complemented by a cyber-brutalist header, terminal status badge, and floating AI assistant.
 
 <div align="center">
-  <img src=".github/assets/hero-preview.svg" alt="Hero & 3D Interactive Canvas Preview" width="100%" />
+  <img src=".github/assets/screenshots/hero.png" alt="Hero & 3D Interactive WebGL Canvas" width="100%" />
 </div>
 
 ---
 
-### 📁 Responsive Project Case Studies
-Detailed case studies featuring architecture diagrams, problem statements, measurable impact metrics, live links, and technical stack badges.
+### 👤 About, Technical Skills & Experience Timeline
+Structured capabilities matrix, categorized proficiencies, interactive skill detail cards, and an interactive career timeline.
 
 <div align="center">
-  <img src=".github/assets/projects-preview.svg" alt="Projects Showcase Preview" width="100%" />
+  <img src=".github/assets/screenshots/about.png" alt="About and Skills Showcase" width="100%" />
 </div>
 
 ---
 
-### 🤖 AI Assistant • 🎮 404 Cyber Game • 🔐 Admin Studio
-- **Grounded AI Assistant:** Floating chat assistant powered by Vercel AI SDK, with a dynamic system prompt grounded in your actual skills, experience, and projects.
-- **404 Retro Minigame:** Interactive cyber grid obstacle game with keyboard/touch controls, audio feedback, and a global Supabase leaderboard.
-- **2FA-Protected Admin CMS:** Browser-based content management studio with TOTP multi-factor authentication, live draft previews, version rollback, and an inbox manager.
+### 📁 Projects Directory & Live Filtering
+Curated project index with real-time category filtering (Full-Stack, Systems, Data), live search, tech stack tags, and quick-launch links.
 
 <div align="center">
-  <img src=".github/assets/features-preview.svg" alt="Features Preview: AI Chat, 404 Minigame, Admin Studio" width="100%" />
+  <img src=".github/assets/screenshots/projects.png" alt="Projects Directory and Filtering" width="100%" />
+</div>
+
+---
+
+### 🔍 Deep-Dive Project Case Study View
+Comprehensive project breakdown showcasing architectural decisions, challenge statements, solutions, metrics, and technology badges.
+
+<div align="center">
+  <img src=".github/assets/screenshots/case-study.png" alt="Detailed Project Case Study View" width="100%" />
+</div>
+
+---
+
+### 📝 Markdown Blog & Case Study Articles
+Clean reading experience with estimated read time, frontmatter tags, code syntax highlighting, and responsive typography.
+
+<div align="center">
+  <img src=".github/assets/screenshots/blog-post.png" alt="Markdown Blog Article View" width="100%" />
+</div>
+
+---
+
+### 📬 Spam-Protected Contact Terminal
+Direct outreach form with honeypot validation, encrypted email reveal, rate limiting, and optional Resend API delivery.
+
+<div align="center">
+  <img src=".github/assets/screenshots/contact.png" alt="Contact Form Section" width="100%" />
+</div>
+
+---
+
+### 🎮 Interactive 404 Cyber Grid Minigame
+Retro-futuristic 3D wireframe obstacle runner with keyboard/touch controls, audio synthesis, and global Supabase leaderboard.
+
+<div align="center">
+  <img src=".github/assets/screenshots/game-404.png" alt="404 Cyber Grid Minigame" width="100%" />
+</div>
+
+---
+
+### 🔐 Headless Admin Studio (TOTP 2FA)
+Zero third-party login dependency; secure RFC 6238 TOTP authentication granting access to content draft editing, revisions, and the contact inbox.
+
+<div align="center">
+  <img src=".github/assets/screenshots/admin.png" alt="Admin 2FA Security Terminal" width="100%" />
 </div>
 
 ---
