@@ -28,8 +28,15 @@ export async function generateMetadata() {
   const title = seo.siteTitle || "YOUR NAME | Software Engineer";
   const description = seo.siteDescription || cms.siteConfig?.tagline;
 
+  let metadataBase;
+  try {
+    metadataBase = new URL(siteUrl);
+  } catch {
+    metadataBase = new URL("https://example.com");
+  }
+
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase,
     title,
     description,
     keywords: seo.keywords,
