@@ -7,14 +7,18 @@
 **A high-performance, brutalist developer portfolio with interactive 3D graphics, an AI portfolio assistant, responsive project case studies, a Markdown blog, an interactive 404 minigame, and an optional Supabase CMS with TOTP 2FA admin studio.**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-hazemhassine.space-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://developer-portfolio-template.hazemhassine.space/)
-[![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Auth-3ecf8e?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Next.js](https://img.shields.io/badge/Next.js%2016.3-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React%2019-20232A?style=for-the-badge&logo=react&logoColor=61dafb)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS%20v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sdk.vercel.ai/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-[🌐 View Live Demo](https://developer-portfolio-template.hazemhassine.space/) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [⚙️ Customization](#-customization-guide) • [🔐 Admin CMS](#-optional-supabase-cms--admin-studio)
+<br/>
+
+[🌐 View Live Demo](https://developer-portfolio-template.hazemhassine.space/) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🛠️ Technologies Used](#-technologies-used) • [⚙️ Customization](#-customization-guide) • [🔐 Admin CMS](#-optional-supabase-cms--admin-studio)
 
 </div>
 
@@ -66,20 +70,41 @@ Detailed case studies featuring architecture diagrams, problem statements, measu
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-| Layer | Technology |
-|---|---|
-| **Framework** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack, Server Components) |
-| **UI & Styling** | [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/) |
-| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
-| **3D Graphics** | [Three.js](https://threejs.org/), [React Three Fiber](https://r3f.docs.pmnd.rs/), [@react-three/drei](https://github.com/pmndrs/drei) |
-| **AI Integration** | [Vercel AI SDK](https://sdk.vercel.ai/docs), Vercel AI Gateway |
-| **Database & CMS** | [Supabase](https://supabase.com/) (PostgreSQL, Row Level Security, RPCs) |
-| **Auth & Security** | TOTP 2FA (RFC 6238), [Jose](https://github.com/panva/jose) (JWT) |
-| **Email Delivery** | [Resend](https://resend.com/) |
-| **Markdown** | [React Markdown](https://github.com/remarkjs/react-markdown), Gray-Matter, UIW Markdown Editor |
-| **DevOps** | Docker multi-stage build, GitHub Actions, Vercel |
+### 🖥️ Frontend & UI
+[![Next.js 16](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Turbopack](https://img.shields.io/badge/Turbopack-000000?style=flat-square&logo=turborepo&logoColor=white)](https://turbo.build/pack)
+[![IBM Plex Mono](https://img.shields.io/badge/IBM_Plex_Mono-052FAD?style=flat-square&logo=ibm&logoColor=white)](https://fonts.google.com/specimen/IBM+Plex+Mono)
+
+### 🎨 3D & Graphics
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-18181B?style=flat-square&logo=react&logoColor=61DAFB)](https://r3f.docs.pmnd.rs/)
+[![React Three Drei](https://img.shields.io/badge/React_Three_Drei-18181B?style=flat-square&logo=three.js&logoColor=white)](https://github.com/pmndrs/drei)
+[![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)](https://www.khronos.org/webgl/)
+
+### 🗄️ Backend, Database & Auth
+[![Node.js 22+](https://img.shields.io/badge/Node.js_22+-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Jose JWT](https://img.shields.io/badge/Jose_JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)](https://github.com/panva/jose)
+[![TOTP 2FA](https://img.shields.io/badge/TOTP_2FA_RFC_6238-22C55E?style=flat-square&logo=auth0&logoColor=white)](https://tools.ietf.org/html/rfc6238)
+
+### 🤖 AI, Integrations & Markdown
+[![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)](https://sdk.vercel.ai/)
+[![Resend](https://img.shields.io/badge/Resend_Email_API-000000?style=flat-square&logo=resend&logoColor=white)](https://resend.com/)
+[![React Markdown](https://img.shields.io/badge/React_Markdown-000000?style=flat-square&logo=markdown&logoColor=white)](https://github.com/remarkjs/react-markdown)
+[![Vercel Analytics](https://img.shields.io/badge/Vercel_Analytics-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/analytics)
+
+### 🚀 DevOps & Tooling
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![ESLint 9](https://img.shields.io/badge/ESLint_9-4B32C3?style=flat-square&logo=eslint&logoColor=white)](https://eslint.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel_Deployment-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
 ---
 
