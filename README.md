@@ -1,126 +1,206 @@
+<div align="center">
+
+![Developer Portfolio Template Banner](.github/assets/banner.svg)
+
 # Developer Portfolio Template
 
-A customizable developer portfolio with a brutalist visual system, responsive project case studies, a Markdown blog, an interactive 404 game, and optional CMS, contact, analytics, and AI-assistant integrations.
+**A high-performance, brutalist developer portfolio with interactive 3D graphics, an AI portfolio assistant, responsive project case studies, a Markdown blog, an interactive 404 minigame, and an optional Supabase CMS with TOTP 2FA admin studio.**
 
-The repository ships with explicit placeholder content and placeholder SVGs. It contains no production credentials or personal profile data, so you can clone it and start editing immediately.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-hazemhassine.space-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://developer-portfolio-template.hazemhassine.space/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database%20%26%20Auth-3ecf8e?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Stack
+[🌐 View Live Demo](https://developer-portfolio-template.hazemhassine.space/) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [⚙️ Customization](#-customization-guide) • [🔐 Admin CMS](#-optional-supabase-cms--admin-studio)
 
-- Next.js 16 App Router and React 19
-- Tailwind CSS 4
-- Framer Motion
-- Three.js and React Three Fiber
-- Local Markdown posts with an optional Supabase CMS
-- Optional Vercel AI Gateway assistant, Resend contact delivery, and Vercel Analytics
-- Docker and GitHub Actions support
+</div>
 
-## Quick start
+---
 
-Requirements: Node.js 22 or newer and npm.
+## 📸 Showcase & Visuals
 
+### 🖥️ Hero & Interactive 3D WebGL Canvas
+Dynamic mouse-reactive 3D wireframe geometries built with Three.js & React Three Fiber, complemented by a cyber-brutalist header, terminal status badge, and smooth framer-motion entry animations.
+
+<div align="center">
+  <img src=".github/assets/hero-preview.svg" alt="Hero & 3D Interactive Canvas Preview" width="100%" />
+</div>
+
+---
+
+### 📁 Responsive Project Case Studies
+Detailed case studies featuring architecture diagrams, problem statements, measurable impact metrics, live links, and technical stack badges.
+
+<div align="center">
+  <img src=".github/assets/projects-preview.svg" alt="Projects Showcase Preview" width="100%" />
+</div>
+
+---
+
+### 🤖 AI Assistant • 🎮 404 Cyber Game • 🔐 Admin Studio
+- **Grounded AI Assistant:** Floating chat assistant powered by Vercel AI SDK, with a dynamic system prompt grounded in your actual skills, experience, and projects.
+- **404 Retro Minigame:** Interactive cyber grid obstacle game with keyboard/touch controls, audio feedback, and a global Supabase leaderboard.
+- **2FA-Protected Admin CMS:** Browser-based content management studio with TOTP multi-factor authentication, live draft previews, version rollback, and an inbox manager.
+
+<div align="center">
+  <img src=".github/assets/features-preview.svg" alt="Features Preview: AI Chat, 404 Minigame, Admin Studio" width="100%" />
+</div>
+
+---
+
+## ✨ Features
+
+- **🎨 Modern Cyber-Brutalist Aesthetic:** Dark mode palette, custom reactive cursor, noise texture overlay, monospaced typography, and high-contrast accents.
+- **🌐 Three.js / WebGL Integration:** Interactive 3D hero scene with customizable meshes, materials, and physics-driven cursor response.
+- **🤖 Built-in AI Portfolio Assistant:** Context-aware assistant powered by Vercel AI SDK (`ai` & `@ai-sdk/react`) that answers visitor questions about your work.
+- **📝 Markdown & MDX Blog:** Fast, static Markdown blog engine with YAML frontmatter, reading time estimation, syntax highlighting, and category tags.
+- **🎮 Interactive 404 Minigame:** Fully playable grid-runner minigame with high-score tracking and global leaderboard integration.
+- **🔐 Headless Supabase CMS:** Optional full-stack content management with draft previews, revision history, media asset manager, and contact inbox.
+- **🛡️ TOTP 2FA Admin Authentication:** Zero third-party auth dependency; secure TOTP RFC 6238 authenticator app flow with signed JWT cookies.
+- **📬 Spam-Protected Contact Form:** Contact form with honeypot validation, rate limiting, and optional email delivery via Resend.
+- **⚡ SEO & Performance Optimized:** Dynamic `sitemap.xml`, `robots.txt`, OpenGraph & Twitter cards metadata generation, and Vercel Analytics.
+- **🐳 Multi-Stage Docker & Compose:** Ready for containerized deployment with standalone Next.js server output.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Framework** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack, Server Components) |
+| **UI & Styling** | [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/) |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
+| **3D Graphics** | [Three.js](https://threejs.org/), [React Three Fiber](https://r3f.docs.pmnd.rs/), [@react-three/drei](https://github.com/pmndrs/drei) |
+| **AI Integration** | [Vercel AI SDK](https://sdk.vercel.ai/docs), Vercel AI Gateway |
+| **Database & CMS** | [Supabase](https://supabase.com/) (PostgreSQL, Row Level Security, RPCs) |
+| **Auth & Security** | TOTP 2FA (RFC 6238), [Jose](https://github.com/panva/jose) (JWT) |
+| **Email Delivery** | [Resend](https://resend.com/) |
+| **Markdown** | [React Markdown](https://github.com/remarkjs/react-markdown), Gray-Matter, UIW Markdown Editor |
+| **DevOps** | Docker multi-stage build, GitHub Actions, Vercel |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- **Node.js 22+**
+- **npm** (or `pnpm` / `yarn`)
+
+### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/developer-portfolio-template.git
+git clone https://github.com/HazemHassine/developer-portfolio-template.git
 cd developer-portfolio-template
+```
+
+### 2. Install dependencies
+```bash
 npm install
+```
+
+### 3. Setup environment variables
+```bash
 cp .env.example .env.local
+```
+
+### 4. Run the development server
+```bash
 npm run dev
 ```
 
-Open [http://127.0.0.1:3000](http://127.0.0.1:3000). The core portfolio and local Markdown blog work without configuring any external service.
+Open [http://127.0.0.1:3000](http://127.0.0.1:3000) in your browser. The core portfolio, 3D elements, and local Markdown blog work out-of-the-box without configuring any external services.
 
-## Customize the portfolio
-
-Start with these files:
-
-| What to change | File |
-| --- | --- |
-| Name, links, bio, experience, education, project cards, and core stack | `lib/data.js` |
-| Full project case studies | `lib/projects-data.js` |
-| Detailed skills and evidence | `lib/skillsData.js` |
-| SEO, page copy, marquee text, and default theme | `lib/cms-shared.js` |
-| Blog posts | `content/blog/*.md` |
-| Portrait | `public/profile-placeholder.svg` and its path in `components/HeroSection.js` |
-| Project media | `public/projects/` and image paths in the project data files |
-| Browser icon | `app/icon.svg` |
-| Canonical site URL | `NEXT_PUBLIC_SITE_URL` in `.env.local` |
-
-Keep the short project cards in `lib/data.js` and full case studies in `lib/projects-data.js` aligned by slug. The included `project-atlas`, `orbit-api`, and `signal-lab` entries demonstrate every supported field and are intended to be replaced.
-
-Each local blog post is a Markdown file with frontmatter:
-
-```md
----
-title: "How I built this feature"
-date: "AUGUST 29, 2026"
-summary: "A concise description shown on article cards."
 ---
 
-Write the article here.
-```
+## ⚙️ Customization Guide
 
-## Environment variables
+Personalize the template by editing these core files:
 
-Copy `.env.example` to `.env.local`. Only `NEXT_PUBLIC_SITE_URL` is useful for the basic local setup; all integrations are optional.
+| Target | File | Description |
+|---|---|---|
+| **Identity & Socials** | [`lib/data.js`](lib/data.js) | Name, titles, bio, social URLs, timeline, and education. |
+| **Project Case Studies** | [`lib/projects-data.js`](lib/projects-data.js) | Deep-dive case studies, architecture notes, metrics, and links. |
+| **Skills & Tooling** | [`lib/skillsData.js`](lib/skillsData.js) | Detailed technical stack categories, proficiencies, and proof points. |
+| **SEO & Copy** | [`lib/cms-shared.js`](lib/cms-shared.js) | Meta titles, descriptions, banner marquee text, and color tokens. |
+| **Blog Articles** | [`content/blog/*.md`](content/blog/) | Static Markdown articles with frontmatter metadata. |
+| **Profile Photo** | [`public/profile-placeholder.svg`](public/profile-placeholder.svg) | Avatar image used in the hero and about sections. |
+| **Project Media** | [`public/projects/`](public/projects/) | Screenshot assets referenced in project case studies. |
+| **Favicon & Icon** | [`app/icon.svg`](app/icon.svg) | Browser tab icon. |
 
-| Variable | Purpose |
-| --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical URL for metadata, `robots.txt`, and `sitemap.xml` |
-| `NEXT_PUBLIC_SUPABASE_URL` | Public Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Public Supabase anonymous key |
-| `SUPABASE_SERVICE_ROLE_KEY` | Server-only CMS, media, inbox, and leaderboard access |
-| `ADMIN_TOTP_SECRET` | Base32 TOTP secret for `/admin` |
-| `JWT_SECRET` | Long random secret used to sign admin sessions |
-| `AI_GATEWAY_API_KEY` | Vercel AI Gateway authentication for the assistant |
-| `RESEND_API_KEY` | Contact-form email delivery |
+---
 
-Never commit `.env.local`. Variables without the `NEXT_PUBLIC_` prefix must remain server-only.
+## 🔐 Optional Supabase CMS & Admin Studio
 
-## Optional CMS and admin studio
+The template defaults to the local static files in the repository. To enable browser-based content editing:
 
-The site falls back to the files in this repository when Supabase is not configured. To enable browser-based content editing:
+1. Create a project at [supabase.com](https://supabase.com).
+2. Go to the **SQL Editor** in Supabase and execute [`supabase/cms.sql`](supabase/cms.sql).
+3. Copy your project credentials into `.env.local`:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+   ```
+4. Generate a base32 TOTP secret for 2FA authentication (e.g. using `speakeasy` or an online base32 generator) and add it to `.env.local`:
+   ```env
+   ADMIN_TOTP_SECRET=JBSWY3DPEHPK3PXP
+   JWT_SECRET=your-secure-random-jwt-secret-string-at-least-32-chars
+   ```
+5. Scan or enter the `ADMIN_TOTP_SECRET` into Google Authenticator, 1Password, or Authy.
+6. Visit `/admin` and log in with your 6-digit TOTP code.
 
-1. Create a Supabase project.
-2. Run `supabase/cms.sql` in the Supabase SQL editor.
-3. Add the three Supabase variables to `.env.local`.
-4. Create a base32 TOTP secret and add it as `ADMIN_TOTP_SECRET`.
-5. Generate a long random `JWT_SECRET`.
-6. Add the same TOTP secret to an authenticator app, then sign in at `/admin`.
+---
 
-Published CMS entries override the local defaults. The studio supports draft previews, revisions, project data, page copy, theme variables, blog posts, media, and contact messages.
+## 🔑 Environment Variables Reference
 
-## Optional contact form
+| Variable | Required | Description |
+|---|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Recommended | Canonical base URL (e.g. `https://developer-portfolio-template.hazemhassine.space`) |
+| `NEXT_PUBLIC_SUPABASE_URL` | Optional | Supabase project URL for CMS, media & leaderboard |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Optional | Supabase client anonymous API key |
+| `SUPABASE_SERVICE_ROLE_KEY` | Optional | Supabase service role secret key (server-side only) |
+| `ADMIN_TOTP_SECRET` | Optional | Base32 TOTP secret for `/admin` 2FA login |
+| `JWT_SECRET` | Optional | Encryption secret for admin session tokens |
+| `AI_GATEWAY_API_KEY` | Optional | Vercel AI Gateway API key for portfolio chat assistant |
+| `RESEND_API_KEY` | Optional | API key from Resend for contact form email routing |
 
-Add `RESEND_API_KEY`, replace `siteConfig.email` in `lib/data.js`, and configure a verified sender in `app/api/contact/route.js` before production use. Resend's sandbox sender is intentionally left in place for initial testing.
+---
 
-## Optional portfolio assistant
+## 🐳 Docker Deployment
 
-Add `AI_GATEWAY_API_KEY` to enable the floating assistant. Its source-of-truth profile is generated from the same portfolio, project, skill, CMS, and blog data used by the website. Customize its rules and model in `app/api/chat/route.js`.
-
-## Commands
+Run the complete portfolio in a containerized standalone environment:
 
 ```bash
-npm run dev      # local development
-npm run lint     # ESLint
-npm run build    # production build
-npm run start    # serve the production build
+# Build and run with Docker Compose
+docker compose up --build -d
+
+# Verify logs
+docker compose logs -f
 ```
 
-## Docker
+The container exposes port `3000` and includes built-in health check polling.
 
-After creating `.env.local`:
+---
+
+## 📦 Scripts
 
 ```bash
-docker compose up --build
+npm run dev      # Start development server on 127.0.0.1:3000
+npm run build    # Build optimized production bundle
+npm run start    # Start production server
+npm run lint     # Run ESLint checks
 ```
 
-The production image uses Next.js standalone output and serves the site on port 3000.
+---
 
-## Deploy
+## 📄 License
 
-Deploy to any platform that supports Next.js 16 and Node.js 22+. Set `NEXT_PUBLIC_SITE_URL` to the final HTTPS origin and configure only the optional service variables you plan to use.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
-Before publishing, search for `Your Name`, `yourusername`, `you@example.com`, `Your Location`, and `example.com` to catch any remaining placeholders.
+---
 
-## License
-
-MIT — see `LICENSE`.
+<div align="center">
+  <sub>Built with Next.js 16, React 19, Three.js & Tailwind CSS 4. Crafted by <a href="https://hazemhassine.space">Hazem Hassine</a>.</sub>
+</div>
